@@ -5,7 +5,7 @@ var clickFunction = function () {
   var name = document.getElementById('name').value;
   var message = document.getElementById('message').value;
 
-  posts.innerHTML = `Posted by ${name} - ${message}`;
+  posts.innerHTML = `${message}  -Posted by ${name}`;
 };
 
 button.addEventListener('click', clickFunction);
